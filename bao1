@@ -87,17 +87,6 @@ Thẻ này sẽ giúp bạn liên kết tài liệu bên ngoài và các kịch 
 charset: “UTF-8” nhân vật mã hóa.
 href: Nó chứa liên kết đến tập tin nguồn của bạn.
 media: Điều này xác định các loại thiết bị mà hàng của bạn sẽ chạy, ví dụ, “điện thoại thông minh” hoặc “máy tính bảng”.
-type: kiểu MIME của tài liệu
-<!DOCTYPE html>
-<html:html>
-  <html:head>
-    <html:title>A Look Into HTML6</html:title>
- <html:link src="js/mainfile.js" title="Script" type="text/javascript">
-  </html:heads<h
-<h
-<h
-<h
-<h
-<h
+ty
 <h
 <h
