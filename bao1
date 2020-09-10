@@ -79,14 +79,7 @@ Thẻ này khác nhau một chút với thẻ <meta> được sử dụng trong 
         <html:title>A Look Into HTML6</html:title>
         <html:meta type="description" value="HTML example with namespaces">
       </html:head>
-    </html:html>
-<html: link>
-
-Thẻ này sẽ giúp bạn liên kết tài liệu bên ngoài và các kịch bản (như CSS, JS vv) để các tài liệu HTML. Nó tương tự như thẻ <link> được sử dụng trong HTML5. Thẻ này bao gồm các thuộc tính sau:
-
-charset: “UTF-8” nhân vật mã hóa.
-href: Nó chứa liên kết đến tập tin nguồn của bạn.
-media: Điều này xác định các loại thiết bị mà hàng của bạn sẽ chạy, ví dụ, “điện thoại thông minh” hoặc “máy tính bảng”.
+    </g của bạn sẽ chạy, ví dụ, “điện thoại thông minh” hoặc “máy tính bảng”.
 ty
 <h
 <h
