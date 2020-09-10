@@ -1,0 +1,96 @@
+HTML6 là gì?
+HTML6 là phiên bản gì gì đó
+L6 sẽ cung cấp cho chúng ta những lợi ích sử dụng thẻ mà chúng ta muốn và sẽ không phải chỉ sử dụng các thẻ được định nghĩa.
+
+Ví dụ về HTML6:
+
+<!DOCTYPE html>
+<html:html>
+    <html:head>
+        <html:title>A Look Into HTML6</html:title>
+        <html:meta type="title" value="Page Title">
+        <html:meta type="description" value="HTML example with namespaces">
+        <html:link src="css/mainfile.css" title="Styles" type="text/css">
+        <html:link src="js/mainfile.js" title="Script" type="text/javascript">
+    </html:head>
+    <html:body>
+        <header>
+            <logo>
+                <html:media type="image" src="images/xyz.png">
+            </logo>
+            <nav>
+               <html:a href="/img1">a1</a>
+               <html:a href="/img2">a2</a>
+             </nav>
+        </header>
+        <content>
+            <article>
+                <h1>Heading of main article</h1>
+                <h2>Sub-heading of main article</h2>
+                <p>[...]</p>
+                <p>[...]</p>
+            </article>
+            <article>
+                <h1>The concept of HTML6</h1>
+                <h2>Understanding the basics</h2>
+                <p>[...]</p>
+               </article>
+        </content>
+        <footer>
+            <copyright>This site is &copy; to Anonymous 2014</copyright>
+        </footer>
+    </html:body>
+</html:html>
+Nhìn vào các tài liệu HTML6 ở trên, bạn sẽ thấy một số thẻ lẻ <html: x>. Những thẻ lẻ là các yếu tố không gian tên thuộc về W3C và HTML6 , và sẽ kích hoạt sự kiện trình duyệt. Ví dụ, <html: title> phần tử sẽ thay đổi thanh tiêu đề của trình duyệt của bạn và<html: media> sẽ giúp làm cho hình ảnh được xác định xuất hiện trên màn hình trình duyệt của bạn. Phần tốt nhất là tất cả các yếu tố này được xác định cụ thể cho người sử dụng và không có bất cứ điều gì để làm với các trình duyệt. Chúng chẳng có gì hơn những cái mác cho JavaScript và style sheet để làm cho mẫu mã của bạn nhiều ngữ nghĩa.
+
+HTML6 APIs – Giao diện chương trình ứng dụng
+Các thẻ HTML6 sẽ có html namespace như <html: html> hoặc <html: head> , v.v.. Hãy nhìn vào những thuộc tính của mỗi thẻ, được sử dụng trong các tài liệu ví dụ HTML6 ở trên.
+
+<html: html>
+<!DOCTYPE html>
+<html:html>// this is equivalent to <html> tag written in previous HTML versions
+  <!-- sample of HTML document -->
+</html:html>
+<html: head>
+Thẻ này là tương đương với <head> tag. Đó là mục đích là để có được dữ liệu và kịch bản mà tweaks thế nào nội dung được hiển thị bên trong thẻ <html: body>
+
+<!DOCTYPE html>
+<html:html>
+  <html:head>
+    <!-- Main content would come here, like the <html:title> tag -->
+  </html:head>
+</html:html>
+<html: title>
+Như tên gọi của nó, nó sẽ thay đổi tiêu đề của tài liệu HTML, và tương tự như thẻ <title> được sử dụng trong các phiên bản HTML trước đó. Thẻ này được sử dụng bởi các trình duyệt để thay đổi thanh tiêu đề yêu thích, v.v.
+
+<!DOCTYPE html>
+<html:html>
+  <html:head>
+    <html:title>A Look Into HTML6</html:title>
+  </html:head>
+</html:html>
+<html: meta>
+
+Thẻ này khác nhau một chút với thẻ <meta> được sử dụng trong các phiên bản HTML mới nhất. Sử dụng thẻ HTML6 này bạn có thể sử dụng bất kỳ loại dữ liệu meta. Không giống như HTML5 bạn sẽ không phải sử dụng các loại meta tiêu chuẩn trong HTML6. Nó giúp tích lũy thông tin như mô tả trang web, bằng cách lưu trữ nội dung.
+
+  <!DOCTYPE html>
+    <html:html>
+      <html:head>
+        <html:title>A Look Into HTML6</html:title>
+        <html:meta type="description" value="HTML example with namespaces">
+      </html:head>
+    </html:html>
+<html: link>
+
+Thẻ này sẽ giúp bạn liên kết tài liệu bên ngoài và các kịch bản (như CSS, JS vv) để các tài liệu HTML. Nó tương tự như thẻ <link> được sử dụng trong HTML5. Thẻ này bao gồm các thuộc tính sau:
+
+charset: “UTF-8” nhân vật mã hóa.
+href: Nó chứa liên kết đến tập tin nguồn của bạn.
+media: Điều này xác định các loại thiết bị mà hàng của bạn sẽ chạy, ví dụ, “điện thoại thông minh” hoặc “máy tính bảng”.
+type: kiểu MIME của tài liệu
+<!DOCTYPE html>
+<html:html>
+  <html:head>
+    <html:title>A Look Into HTML6</html:title>
+ <html:link src="js/mainfile.js" title="Script" type="text/javascript">
+  </html:heads
