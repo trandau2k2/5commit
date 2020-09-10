@@ -88,18 +88,7 @@ Thẻ này khác nhau một chút với thẻ <meta> được sử dụng trong 
 
 Thẻ này sẽ giúp bạn liên kết tài liệu bên ngoài và các kịch bản (như CSS, JS vv) để các tài liệu HTML. Nó tương tự như thẻ <link> được sử dụng trong HTML5. Thẻ này bao gồm các thuộc tính sau:
 
-<html: body>
-
-Điều này cũng giống như thẻ <body> mà bạn đã sử dụng trong phiên bản HTML hiện hành. Đây là nơi mà tất cả các công cụ trang web của bạn như văn bản, phương tiện truyền thông và những người khác được đặt.
-
-<!DOCTYPE html>
-<html:html>
-  <html:head>
-    <html:title>A Look Into HTML6</html:title>
-  </html:head>
-  <html:body>
-    <!-- This is where your website content is placed -->
-  </html:body>
+<h
 </html:html>
 <html: a>
 
